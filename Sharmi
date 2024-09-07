@@ -1,0 +1,7 @@
+graph TD
+    A[Smart Contact Lens (IOP Sensor)] -->|Bluetooth/NFC Transmission| B[Mobile Device (App Receives Data)]
+    B --> C[Data Processing (Algorithms)]
+    C --> D[Data Visualization in App]
+    D --> E[Real-time Alerts]
+    D --> F[Cloud Storage (Optional)]
+    F --> G[Remote Monitoring by Doctors (Optional)]
